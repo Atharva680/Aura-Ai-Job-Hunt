@@ -1,0 +1,98 @@
+﻿{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4281550535",
+      "title": "Senior / Prompt Engineer (AI/ML), Brand Concierge",
+      "company": "Adobe",
+      "companyUrl": "https://www.linkedin.com/company/adobe",
+      "location": "San Jose, CA",
+      "date": "2026-08-31",
+      "url": "https://www.linkedin.com/jobs/view/senior-prompt-engineer-ai-ml-brand-concierge-at-adobe-4281550535"
+    },
+    {
+      "id": "4371020537",
+      "title": "AI Agent Engineer - Remote - Colombia",
+      "company": "FullStack",
+      "companyUrl": "https://www.linkedin.com/company/fullstack-labs",
+      "location": "Medellin, Antioquia, Colombia",
+      "date": "2026-08-22",
+      "url": "https://co.linkedin.com/jobs/view/ai-agent-engineer-remote-colombia-at-fullstack-4371020537"
+    },
+    {
+      "id": "4371013921",
+      "title": "AI Agent Engineer - Remote - Colombia",
+      "company": "FullStack",
+      "companyUrl": "https://www.linkedin.com/company/fullstack-labs",
+      "location": "Manizales, Caldas, Colombia",
+      "date": "2026-08-24",
+      "url": "https://co.linkedin.com/jobs/view/ai-agent-engineer-remote-colombia-at-fullstack-4371013921"
+    },
+    {
+      "id": "4448757429",
+      "title": "Applied AI Developer",
+      "company": "SAP",
+      "companyUrl": "https://de.linkedin.com/company/sap",
+      "location": "Singapore, Singapore",
+      "date": "2026-08-28",
+      "url": "https://sg.linkedin.com/jobs/view/applied-ai-developer-at-sap-4448757429"
+    },
+    {
+      "id": "4455965816",
+      "title": "GenAI Engineer - Remote Work | REF#300952",
+      "company": "BairesDev",
+      "companyUrl": "https://www.linkedin.com/company/bairesdev",
+      "location": "Lima, Peru",
+      "date": "2026-08-18",
+      "url": "https://pe.linkedin.com/jobs/view/genai-engineer-remote-work-ref%23300952-at-bairesdev-4455965816"
+    },
+    {
+      "id": "4457460820",
+      "title": "Generative AI Developer",
+      "company": "Citi",
+      "companyUrl": "https://www.linkedin.com/company/citi",
+      "location": "Mississauga, Ontario, Canada",
+      "date": "2026-08-25",
+      "url": "https://ca.linkedin.com/jobs/view/generative-ai-developer-at-citi-4457460820"
+    },
+    {
+      "id": "4457948047",
+      "title": "Software Engineer (AI Agents) at a $15B AI Pioneer (Ex-Facebook CTO)",
+      "company": "Harper",
+      "companyUrl": "https://kr.linkedin.com/company/matchharper",
+      "location": "Seoul, South Korea",
+      "date": "2026-08-31",
+      "url": "https://kr.linkedin.com/jobs/view/software-engineer-ai-agents-at-a-%2415b-ai-pioneer-ex-facebook-cto-at-harper-4457948047"
+    },
+    {
+      "id": "4459443151",
+      "title": "Principal Software Engineer (AI Platform) - Parametric",
+      "company": "Morgan Stanley",
+      "companyUrl": "https://www.linkedin.com/company/morgan-stanley",
+      "location": "Minneapolis, MN",
+      "date": "2026-08-28",
+      "url": "https://www.linkedin.com/jobs/view/principal-software-engineer-ai-platform-parametric-at-morgan-stanley-4459443151"
+    },
+    {
+      "id": "4448362147",
+      "title": "AI / ML Engineer",
+      "company": "Accenture in India",
+      "companyUrl": "https://in.linkedin.com/company/accentureindia",
+      "location": "Bengaluru, Karnataka, India",
+      "date": "2026-09-01",
+      "url": "https://in.linkedin.com/jobs/view/ai-ml-engineer-at-accenture-in-india-4448362147"
+    },
+    {
+      "id": "4458310803",
+      "title": "Senior AI/ML Software Engineer",
+      "company": "NVIDIA",
+      "companyUrl": "https://www.linkedin.com/company/nvidia",
+      "location": "Pune Division, Maharashtra, India",
+      "date": "2026-08-27",
+      "url": "https://in.linkedin.com/jobs/view/senior-ai-ml-software-engineer-at-nvidia-4458310803"
+    }
+  ]
+}

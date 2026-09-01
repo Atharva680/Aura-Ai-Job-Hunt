@@ -1,0 +1,98 @@
+﻿{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4448351220",
+      "title": "LLM Full Stack Engineer",
+      "company": "Accenture in India",
+      "companyUrl": "https://in.linkedin.com/company/accentureindia",
+      "location": "Mumbai Metropolitan Region",
+      "date": "2026-09-01",
+      "url": "https://in.linkedin.com/jobs/view/llm-full-stack-engineer-at-accenture-in-india-4448351220"
+    },
+    {
+      "id": "4448377879",
+      "title": "Custom Software Engineer",
+      "company": "Accenture in India",
+      "companyUrl": "https://in.linkedin.com/company/accentureindia",
+      "location": "Mumbai Metropolitan Region",
+      "date": "2026-09-01",
+      "url": "https://in.linkedin.com/jobs/view/custom-software-engineer-at-accenture-in-india-4448377879"
+    },
+    {
+      "id": "4454641631",
+      "title": "AI Engineer",
+      "company": "Kuku",
+      "companyUrl": "https://in.linkedin.com/company/kukufm",
+      "location": "Mumbai Metropolitan Region",
+      "date": "2026-08-21",
+      "url": "https://in.linkedin.com/jobs/view/ai-engineer-at-kuku-4454641631"
+    },
+    {
+      "id": "4461070223",
+      "title": "Senior AI Engineers (LangGraph Specialists)",
+      "company": "SS&C Technologies",
+      "companyUrl": "https://www.linkedin.com/company/ss-c-technologies",
+      "location": "Mumbai Metropolitan Region",
+      "date": "2026-08-31",
+      "url": "https://in.linkedin.com/jobs/view/senior-ai-engineers-langgraph-specialists-at-ss-c-technologies-4461070223"
+    },
+    {
+      "id": "4457163669",
+      "title": "Lead Generative AI Engineer",
+      "company": "Dentsu Global Services",
+      "companyUrl": "https://in.linkedin.com/company/dentsuglobalservices",
+      "location": "Mumbai, Maharashtra, India",
+      "date": "2026-08-24",
+      "url": "https://in.linkedin.com/jobs/view/lead-generative-ai-engineer-at-dentsu-global-services-4457163669"
+    },
+    {
+      "id": "4457481249",
+      "title": "Staff Engineer - GenAI",
+      "company": "AjnaLens",
+      "companyUrl": "https://in.linkedin.com/company/ajnalens",
+      "location": "Thane, Maharashtra, India",
+      "date": "2026-08-25",
+      "url": "https://in.linkedin.com/jobs/view/staff-engineer-genai-at-ajnalens-4457481249"
+    },
+    {
+      "id": "4454504803",
+      "title": "Python Gen AI Engineer",
+      "company": "Capgemini",
+      "companyUrl": "https://fr.linkedin.com/company/capgemini",
+      "location": "Navi Mumbai, Maharashtra, India",
+      "date": "2026-08-27",
+      "url": "https://in.linkedin.com/jobs/view/python-gen-ai-engineer-at-capgemini-4454504803"
+    },
+    {
+      "id": "4414919642",
+      "title": "AI Engineer - Manager",
+      "company": "Brookfield",
+      "companyUrl": "https://www.linkedin.com/company/brookfield",
+      "location": "Mumbai Metropolitan Region",
+      "date": "2026-09-01",
+      "url": "https://in.linkedin.com/jobs/view/ai-engineer-manager-at-brookfield-4414919642"
+    },
+    {
+      "id": "4460292760",
+      "title": "Senior AI Software Engineer ID87003",
+      "company": "AgileEngine",
+      "companyUrl": "https://www.linkedin.com/company/agileengine",
+      "location": "Mumbai Metropolitan Region",
+      "date": "2026-09-01",
+      "url": "https://in.linkedin.com/jobs/view/senior-ai-software-engineer-id87003-at-agileengine-4460292760"
+    },
+    {
+      "id": "4460002217",
+      "title": "Generative AI Engineer",
+      "company": "Staff Connect UAE",
+      "companyUrl": "https://ae.linkedin.com/company/staffconnect-uae",
+      "location": "Mumbai, Maharashtra, India",
+      "date": "2026-08-31",
+      "url": "https://in.linkedin.com/jobs/view/generative-ai-engineer-at-staff-connect-uae-4460002217"
+    }
+  ]
+}

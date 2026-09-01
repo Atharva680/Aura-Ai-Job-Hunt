@@ -1,0 +1,83 @@
+% cv/main_example.tex — Master CV: Atharva Vijay Shinde
+% Compile with: lualatex main_example.tex
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true, linkcolor=blue, filecolor=magenta, urlcolor=blue,
+    pdftitle={Atharva Vijay Shinde - CV}, pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.80]{geometry}
+
+\name{Atharva}{Shinde}
+\address{Nagpur}{India}{}
+\phone[mobile]{+91-8308257250}
+\email{sbjitatharvas@gmail.com}
+\social[linkedin]{atharva-shinde7474}
+\extrainfo{\href{https://github.com/Atharva680}{GitHub} \textbar\ \href{https://atharva-portfolio-betanine.vercel.app}{Portfolio}}
+
+\begin{document}
+\makecvtitle
+
+\section{Profile}
+Final-year B.Tech Computer Science student (graduating July 2026) with 6 months of production internship
+experience at InfoCepts as a Generative AI and Data Engineering Intern. Designed enterprise RAG pipelines
+achieving 95\% retrieval accuracy across 100K+ documents, reduced OpenAI API costs by 25\%, and automated
+15+ workflows saving 260+ hours annually. 3x Databricks Certified, proficient in LangChain, Apache Spark,
+Delta Lake, FastAPI, and Docker.
+
+\section{Core Competencies}
+\begin{itemize}
+\item \textbf{Generative AI \& LLMs}: LangChain, OpenAI API, RAG Pipelines, Prompt Engineering, AI Agents, Embeddings, Hugging Face, Vector Databases (PGVector, Pinecone), Fine-tuning, MLOps.
+\item \textbf{Data Engineering}: Databricks (Certified), Apache Spark, Delta Lake, ETL/ELT Pipelines, Lakehouse Architecture, SQL, Batch \& Streaming.
+\item \textbf{Machine Learning \& CV}: TensorFlow, PyTorch, OpenCV, YuNet, Scikit-learn, LSTM, Deep Q-Learning, Reinforcement Learning, NLP.
+\item \textbf{Languages \& Backend}: Python, SQL, FastAPI, REST APIs, Node.js, Flask, JavaScript, Pandas, NumPy.
+\item \textbf{Tools \& Platforms}: Docker, Microsoft Azure, GitHub, CI/CD, Microservices, PostgreSQL, MLflow.
+\end{itemize}
+
+\section{Experience}
+\cventry{Nov 2025-Apr 2026}{Generative AI / Data Engineering Intern}{InfoCepts -- Data \& AI}{Nagpur, India}{}{
+\begin{itemize}
+\item Designed and deployed enterprise-grade RAG pipelines using LangChain and OpenAI Embeddings over 100K+ documents, achieving 95\% retrieval accuracy.
+\item Optimized vector indexing and chunking strategies (PGVector) to reduce OpenAI API costs by 25\%.
+\item Built multi-step AI agents with REST API tool-calling to automate 15+ enterprise workflows, saving 260+ hours annually.
+\item Architected horizontally scalable FastAPI microservices in Docker on Microsoft Azure.
+\item Engineered ETL/ELT pipelines using Python, Apache Spark, and Delta Lake on Databricks.
+\item Shipped real-time face recognition attendance system (OpenCV, YuNet, TensorFlow), 98\% accuracy, sub-100ms latency.
+\end{itemize}}
+
+\cventry{Jun 2024-Aug 2024}{Web Developer Intern}{LGPS Hybrid Energy Pvt. Ltd.}{Nagpur, India}{}{
+\begin{itemize}
+\item Built full-stack solar energy monitoring dashboard (Node.js, Express.js, React, Chart.js) with live REST API streaming.
+\item Reduced reporting latency by 40\% for the operations team.
+\end{itemize}}
+
+\cventry{Dec 2022-Jan 2023}{Placement Coordination Head}{Amazon (via SBJITMR)}{Nagpur, India}{}{
+\begin{itemize}
+\item Managed 3-day Amazon campus recruitment drive, coordinating logistics for 500+ applicants per day.
+\end{itemize}}
+
+\section{Education}
+\cventry{2022-2026}{B.Tech in Computer Science}{S.B. Jain Institute of Technology, Management \& Research (SBJITMR)}{Nagpur, India}{}{CGPA: 7.54/10.0 \textbar\ Grade: A+}
+
+\section{Certifications}
+\begin{itemize}
+\item Databricks Certified Generative AI Engineer Associate -- Valid Apr 2026 -- Apr 2028
+\item Databricks Certified Data Engineer Associate -- Valid Apr 2026 -- Apr 2028
+\item Databricks Generative AI Fundamentals -- Apr 2026
+\end{itemize}
+
+\section{Languages}
+English (Professional), Hindi (Native), Marathi (Native)
+
+\section{Awards}
+Department Award Trophy -- IEEE Computer Society Chapter (2025)
+
+\end{document}

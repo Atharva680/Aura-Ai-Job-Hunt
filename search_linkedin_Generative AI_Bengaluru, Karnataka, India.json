@@ -1,0 +1,98 @@
+﻿{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4448353645",
+      "title": "AI / ML Engineer",
+      "company": "Accenture in India",
+      "companyUrl": "https://in.linkedin.com/company/accentureindia",
+      "location": "Bengaluru, Karnataka, India",
+      "date": "2026-09-01",
+      "url": "https://in.linkedin.com/jobs/view/ai-ml-engineer-at-accenture-in-india-4448353645"
+    },
+    {
+      "id": "4448361286",
+      "title": "LLM Model Developer",
+      "company": "Accenture in India",
+      "companyUrl": "https://in.linkedin.com/company/accentureindia",
+      "location": "Bengaluru, Karnataka, India",
+      "date": "2026-09-01",
+      "url": "https://in.linkedin.com/jobs/view/llm-model-developer-at-accenture-in-india-4448361286"
+    },
+    {
+      "id": "4458900730",
+      "title": "AI Engineer - Remote",
+      "company": "Xuman.AI",
+      "companyUrl": "https://www.linkedin.com/company/xuman-ai",
+      "location": "Greater Bengaluru Area",
+      "date": "2026-08-28",
+      "url": "https://in.linkedin.com/jobs/view/ai-engineer-remote-at-xuman-ai-4458900730"
+    },
+    {
+      "id": "4459768769",
+      "title": "Artificial Intelligence Engineer",
+      "company": "Recro",
+      "companyUrl": "https://in.linkedin.com/company/recro-io",
+      "location": "Greater Bengaluru Area",
+      "date": "2026-08-31",
+      "url": "https://in.linkedin.com/jobs/view/artificial-intelligence-engineer-at-recro-4459768769"
+    },
+    {
+      "id": "4461599885",
+      "title": "AI Engineer",
+      "company": "Shuru",
+      "companyUrl": "https://sg.linkedin.com/company/shurutech",
+      "location": "Bengaluru, Karnataka, India",
+      "date": "2026-09-01",
+      "url": "https://in.linkedin.com/jobs/view/ai-engineer-at-shuru-4461599885"
+    },
+    {
+      "id": "4457092517",
+      "title": "AI Engineer - SAP S/4HANA (GenAI, Agents",
+      "company": "Bayer",
+      "companyUrl": "https://de.linkedin.com/company/bayer",
+      "location": "Bengaluru, Karnataka, India",
+      "date": "2026-08-21",
+      "url": "https://in.linkedin.com/jobs/view/ai-engineer-sap-s-4hana-genai-agents-at-bayer-4457092517"
+    },
+    {
+      "id": "4457408769",
+      "title": "Agent Engineer",
+      "company": "Sarvam",
+      "companyUrl": "https://www.linkedin.com/company/sarvam-ai",
+      "location": "Bengaluru, Karnataka, India",
+      "date": "2026-08-25",
+      "url": "https://in.linkedin.com/jobs/view/agent-engineer-at-sarvam-4457408769"
+    },
+    {
+      "id": "4446724295",
+      "title": "AI / ML Developer / Engineer",
+      "company": "EXL",
+      "companyUrl": "https://www.linkedin.com/company/exl-service",
+      "location": "Bengaluru, Karnataka, India",
+      "date": "2026-08-20",
+      "url": "https://in.linkedin.com/jobs/view/ai-ml-developer-engineer-at-exl-4446724295"
+    },
+    {
+      "id": "4457916370",
+      "title": "Generative AI Engineer",
+      "company": "Polestar Analytics",
+      "companyUrl": "https://www.linkedin.com/company/polestar-analytics",
+      "location": "Bengaluru, Karnataka, India",
+      "date": "2026-08-26",
+      "url": "https://in.linkedin.com/jobs/view/generative-ai-engineer-at-polestar-analytics-4457916370"
+    },
+    {
+      "id": "4457241743",
+      "title": "Agent Engineer",
+      "company": "SuprSend",
+      "companyUrl": "https://www.linkedin.com/company/suprsend",
+      "location": "Bengaluru, Karnataka, India",
+      "date": "2026-08-26",
+      "url": "https://in.linkedin.com/jobs/view/agent-engineer-at-suprsend-4457241743"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+﻿{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4456262756",
+      "title": "AI Platform & Machine Learning Engineer",
+      "company": "XYZ Reality",
+      "companyUrl": "https://uk.linkedin.com/company/xyz-reality",
+      "location": "Calgary, Alberta, Canada",
+      "date": "2026-08-21",
+      "url": "https://ca.linkedin.com/jobs/view/ai-platform-machine-learning-engineer-at-xyz-reality-4456262756"
+    },
+    {
+      "id": "4456766388",
+      "title": "Machine Learning Engineer",
+      "company": "Xantura Limited",
+      "companyUrl": "https://uk.linkedin.com/company/xantura",
+      "location": "London, England, United Kingdom",
+      "date": "2026-08-20",
+      "url": "https://uk.linkedin.com/jobs/view/machine-learning-engineer-at-xantura-limited-4456766388"
+    },
+    {
+      "id": "4459887933",
+      "title": "AI/ML Engineer",
+      "company": "Cinder",
+      "companyUrl": "https://www.linkedin.com/company/cinder-intelligence",
+      "location": "New York, NY",
+      "date": "2026-08-27",
+      "url": "https://www.linkedin.com/jobs/view/ai-ml-engineer-at-cinder-4459887933"
+    },
+    {
+      "id": "4446419958",
+      "title": "Machine Learning Engineer",
+      "company": "Arlo",
+      "companyUrl": "https://www.linkedin.com/company/arlo-health",
+      "location": "New York, NY",
+      "date": "2026-08-20",
+      "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-at-arlo-4446419958"
+    },
+    {
+      "id": "4459774173",
+      "title": "Machine Learning Engineer",
+      "company": "Programa",
+      "companyUrl": "https://au.linkedin.com/company/programahq",
+      "location": "Melbourne, Victoria, Australia",
+      "date": "2026-08-31",
+      "url": "https://au.linkedin.com/jobs/view/machine-learning-engineer-at-programa-4459774173"
+    },
+    {
+      "id": "4456167657",
+      "title": "Machine Learning Engineer",
+      "company": "Weekday (YC W21)",
+      "companyUrl": "https://www.linkedin.com/company/weekdayworks",
+      "location": "New York, NY",
+      "date": "2026-08-19",
+      "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-at-weekday-yc-w21-4456167657"
+    },
+    {
+      "id": "4454114718",
+      "title": "Machine Learning Engineer",
+      "company": "Xantura Limited",
+      "companyUrl": "https://uk.linkedin.com/company/xantura",
+      "location": "Greater London, England, United Kingdom",
+      "date": "2026-08-20",
+      "url": "https://uk.linkedin.com/jobs/view/machine-learning-engineer-at-xantura-limited-4454114718"
+    },
+    {
+      "id": "4459793076",
+      "title": "Full Stack Engineer (ML)",
+      "company": "MathCo",
+      "companyUrl": "https://www.linkedin.com/company/themathcompany",
+      "location": "Chicago, IL",
+      "date": "2026-08-31",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-engineer-ml-at-mathco-4459793076"
+    },
+    {
+      "id": "4458923517",
+      "title": "Artificial (AI) Engineer",
+      "company": "VELOX",
+      "companyUrl": "https://www.linkedin.com/company/velox",
+      "location": "Boise, ID",
+      "date": "2026-08-28",
+      "url": "https://www.linkedin.com/jobs/view/artificial-ai-engineer-at-velox-4458923517"
+    },
+    {
+      "id": "4460056323",
+      "title": "Machine Learning Engineer",
+      "company": "Evlo AI",
+      "companyUrl": "https://www.linkedin.com/company/evlo-ai",
+      "location": "Dallas, TX",
+      "date": "2026-08-31",
+      "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-at-evlo-ai-4460056323"
+    }
+  ]
+}
