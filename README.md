@@ -1386,22 +1386,3 @@ AI / ML • Python • Automation • Data Engineering • Generative AI
   <img src="https://komarev.com/ghpvc/?username=Atharva680&label=Repository%20Views&color=blue&style=flat-square" alt="Repository Views">
 </p>
 ```
-
-### Important
-
-Keep the demo video exactly here in your repository:
-
-```text
-assets/
-└── demo/
-    └── AuraAI_Job_Hunt_demo.mp4
-```
-
-And the README reference should remain:
-
-```markdown
-<a href="./assets/demo/AuraAI_Job_Hunt_demo.mp4">
-  <strong>▶️ WATCH THE AURA AI DEMO VIDEO</strong>
-</a>
-```
-
