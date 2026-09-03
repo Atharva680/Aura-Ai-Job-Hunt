@@ -26,9 +26,16 @@
 - **A:** Led 10+ AI & Robotics events; coordinated logistics with companies incl. Amazon.
 - **R:** Department Award Trophy; multiple drives executed without incident.
 
+### 5. Leadership: Stakeholder Coordination Under Pressure
+- **S:** SBJITMR needed dependable coordination for repeated recruitment drives involving students, employers, and campus teams.
+- **T:** As Placement Coordinator, keep communication, scheduling, and day-of logistics aligned across 15+ drives.
+- **A:** Set clear ownership, maintained stakeholder communication, and coordinated logistics; separately served as Event Head for 10+ IEEE AI and Robotics events.
+- **R:** Delivered smooth multi-party events and earned the IEEE Computer Society Chapter Department Award Trophy.
+
 ## Likely Questions & Talking Points
 - **"Tell me about a technical blocker you hit."** → RAG hallucination/chunking issue — diagnosis process → fix → accuracy gain.
 - **"Why hire a fresh graduate?"** → Production experience (not just coursework), 3x Databricks certified, quantified real-world impact.
+- **"Tell me about leadership without formal management authority."** → Use Leadership Example 5: coordinating 15+ placement drives and 10+ IEEE events through communication, ownership, and calm execution.
 - **"Why this company?"** → Customize per employer; never give a generic answer.
 
 ## Questions to Ask Interviewers

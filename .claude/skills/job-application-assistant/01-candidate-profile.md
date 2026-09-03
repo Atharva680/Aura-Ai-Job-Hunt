@@ -12,6 +12,7 @@
 ## Status
 - Final-year B.Tech student, graduating July 2026
 - LinkedIn headline: "Generative AI Engineer | Data Engineer"
+- Target roles: Fresher / Graduate / Associate / Junior AI Engineer, ML Engineer, Data Engineer, and Python Developer; specialized Computer Vision and Reinforcement Learning roles are also in scope when they accept early-career candidates.
 
 ## Languages
 | Language | Level |
@@ -58,6 +59,15 @@ Dec 2022 – Jan 2023
 - Databricks Generative AI Fundamentals — Apr 2026
 - Cyber Security & Ethical Hacking Training — NSDC | Jul 2025
 - IQS Python Programming — Grade A+
+
+## Technical Projects
+- **Real-Time Face Recognition Attendance System:** OpenCV, YuNet, TensorFlow, and PostgreSQL; shipped with 98% accuracy, sub-100ms latency, and audit logging.
+- **LSTM + Deep Q-Learning Energy Optimizer:** built an LSTM energy-forecasting model and integrated a Deep Q-Learning agent for energy-optimization decisions; relevant to ML, time-series, and reinforcement-learning roles.
+
+## Application Positioning Rules
+- Lead early-career applications with the six-month InfoCepts production internship and measurable delivery, not only student status.
+- For AI/data roles, name the Databricks Certified Generative AI Engineer Associate and Databricks Certified Data Engineer Associate credentials; both are valid Apr 2026–Apr 2028.
+- For junior Python/software roles, foreground Python, FastAPI microservices, Docker, REST API tool-calling, and multi-step AI-agent workflow automation.
 
 ## Awards
 - Department Award Trophy — IEEE Computer Society Chapter (2025)

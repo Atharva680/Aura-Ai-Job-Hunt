@@ -1,0 +1,60 @@
+---
+name: resume-tailor
+description: >
+  Transforms the candidate's base resume into a highly targeted, ATS-optimized version for a specific job.
+  Follows a deterministic, 21-step pipeline: INPUT VALIDATION → JOB DISCOVERY → FILTERING → SELECTION → JD ANALYSIS → DIAGNOSIS → GAP ANALYSIS → EVIDENCE CHECK → PROJECT RANKING → SUMMARY → SKILLS → EXPERIENCE REWRITE → PROJECT REWRITE → KEYWORD OPTIMIZATION → SECTION ORDER → ONE-PAGE OPTIMIZATION → LATEX ASSEMBLY → LATEX SAFETY CHECK → ATS VALIDATION → FABRICATION AUDIT → FINAL SCORING.
+  Triggers on: tailor resume, optimize resume, customize CV, /tailor
+allowed-tools: Read, Write, Edit, Glob, Grep, Bash, WebFetch, WebSearch, Agent, AskUserQuestion
+---
+
+# Deterministic ATS Resume Engine
+
+This skill implements a high-precision, fail-safe pipeline to create targeted resumes. It is designed to "fail closed"—if information is missing or unverified, it stops or flags the issue instead of guessing.
+
+## The 21-Step Pipeline
+
+### Phase 1: Input & Discovery
+1. **Input Validation**: Verify Master Resume, Target Role, Target JD (or permission to search), and LaTeX Template. Ask for missing items one by one.
+2. **Job Discovery**: Search for relevant current jobs using role, technologies, and location.
+3. **Job Filter**: Remove incompatible roles (seniority mismatch, missing non-negotiable qualifications).
+4. **Target Job Selection**: Rank and select the best target JD based on skill overlap and application value.
+5. **JD Analysis**: Extract and classify requirements as REQUIRED, PREFERRED, or SUPPORTING.
+
+### Phase 2: Diagnosis & Gap Analysis
+6. **Master Resume Diagnosis**: Audit ATS parsing, technical depth, and recruiter readability. Classify problems as CRITICAL to LOW.
+7. **Gap Analysis**: Map Job Requirements $\rightarrow$ Candidate Evidence $\rightarrow$ Gap $\rightarrow$ Action.
+8. **Evidence Check**: Ensure every claim is supported. Mark as `[VERIFY]` if uncertain. **NEVER INVENT** metrics, tech, or results.
+
+### Phase 3: Content Optimization
+9. **Project Ranking**: Score projects by JD relevance and technical complexity. Prioritize the strongest evidence.
+10. **Professional Summary**: Build a high-signal summary based on verified evidence. Create both ATS and Recruiter versions.
+11. **Technical Skills**: Prioritize skills based on JD requirements and actual experience.
+12. **Experience Rewrite**: Use the model: **Accomplished X, measured by Y, by doing Z**.
+13. **Project Rewrite**: Structure as: **Problem $\rightarrow$ Solution $\rightarrow$ Technology $\rightarrow$ Implementation $\rightarrow$ Result**.
+14. **Keyword Optimization**: Naturally integrate required keywords into summary, skills, and bullets.
+
+### Phase 4: Assembly & Refinement
+15. **Section Order**: Apply the candidate's specific order: Summary $\rightarrow$ Skills $\rightarrow$ Projects $\rightarrow$ Experience $\rightarrow$ Certs $\rightarrow$ Education.
+16. **One-Page Optimization**: Remove repetition and weak bullets to fit one page without destroying readability.
+17. **LaTeX Assembly**: Use the provided template (e.g., `templates/custom_style.tex`). Replace CONTENT only. Preserve all layout/packages.
+18. **LaTeX Safety Check**: Audit braces, environments, `\href`, and special characters (`%`, `&`, `$`, `_`, `{`, `}`, `^`, `#`).
+
+### Phase 5: Final Validation
+19. **ATS Validation**: Ensure single-column, machine-readable text, and conventional headings.
+20. **Fabrication Audit**: Final verification of every metric and technology claim against provided evidence.
+21. **Final Scoring**: Score 0-100 on ATS Compatibility, Keyword Alignment, Readability, Relevance, Achievement, Quantification, and Role Alignment.
+
+## Pipeline Control Rules (The "Never Break" Logic)
+- **No Skipping**: Every stage must be completed in order.
+- **No Guessing**: If a metric is missing, ask the user. If unavailable, rewrite without it.
+- **Evidence First**: Every bullet must be defensible in an interview.
+- **Template Integrity**: Never redesign a supplied LaTeX template.
+- **Fail Closed**: If a critical validation fails, stop and fix before outputting.
+
+## Final Output Sequence
+1. Resume Diagnosis
+2. Target Job Analysis
+3. Gap Analysis
+4. Rewritten Resume Content (Section by Section)
+5. Final ATS Score Table
+6. Final Resume File: Confirm the file has been written to `tailored_resumes/` (e.g., `resume_company_role.tex`) and provide the absolute path, followed by the raw LaTeX code.

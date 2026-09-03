@@ -1,83 +1,410 @@
-% cv/main_example.tex — Master CV: Atharva Vijay Shinde
+% ============================================================
+% CV — Atharva Vijay Shinde
+% Research / Generative AI / Data Engineering
 % Compile with: lualatex main_example.tex
+% ============================================================
+
 \documentclass[11pt,a4paper,sans]{moderncv}
+
+% ------------------------------------------------------------
+% STYLE
+% ------------------------------------------------------------
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
 \renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
 \colorlet{firstnamecolor}{color1}
 \colorlet{lastnamecolor}{color1}
+
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
 
+% ------------------------------------------------------------
+% PACKAGES
+% ------------------------------------------------------------
 \usepackage[utf8]{inputenc}
-\AtEndPreamble{\hypersetup{
-    colorlinks=true, linkcolor=blue, filecolor=magenta, urlcolor=blue,
-    pdftitle={Atharva Vijay Shinde - CV}, pdfpagemode=UseNone,
-}}
-\usepackage[scale=0.80]{geometry}
+\usepackage[scale=0.78]{geometry}
 
+\AtEndPreamble{
+    \hypersetup{
+        colorlinks=true,
+        linkcolor=blue,
+        filecolor=magenta,
+        urlcolor=blue,
+        pdftitle={Atharva Vijay Shinde - CV},
+        pdfauthor={Atharva Vijay Shinde},
+        pdfpagemode=UseNone
+    }
+}
+
+% ------------------------------------------------------------
+% PERSONAL INFORMATION
+% ------------------------------------------------------------
 \name{Atharva}{Shinde}
-\address{Nagpur}{India}{}
-\phone[mobile]{+91-8308257250}
-\email{sbjitatharvas@gmail.com}
-\social[linkedin]{atharva-shinde7474}
-\extrainfo{\href{https://github.com/Atharva680}{GitHub} \textbar\ \href{https://atharva-portfolio-betanine.vercel.app}{Portfolio}}
 
+\address{Nagpur}{India}{}
+
+\phone[mobile]{+91-8308257250}
+
+\email{sbjitatharvas@gmail.com}
+
+\social[linkedin]{atharva-shinde7474}
+
+\extrainfo{
+    \href{https://github.com/Atharva680}{GitHub}
+    \textbar\ 
+    \href{https://atharva-portfolio-betanine.vercel.app}{Portfolio}
+}
+
+% ============================================================
+% DOCUMENT
+% ============================================================
 \begin{document}
+
 \makecvtitle
 
-\section{Profile}
-Final-year B.Tech Computer Science student (graduating July 2026) with 6 months of production internship
-experience at InfoCepts as a Generative AI and Data Engineering Intern. Designed enterprise RAG pipelines
-achieving 95\% retrieval accuracy across 100K+ documents, reduced OpenAI API costs by 25\%, and automated
-15+ workflows saving 260+ hours annually. 3x Databricks Certified, proficient in LangChain, Apache Spark,
-Delta Lake, FastAPI, and Docker.
+% ============================================================
+% RESEARCH STATEMENT
+% ============================================================
 
-\section{Core Competencies}
+\section{Research Statement}
+
+Final-year B.E. Computer Science Engineering student graduating July 2026
+with a strong interest in Artificial Intelligence, Large Language Models,
+software engineering, and applied research. Experienced in building
+production-grade LLM systems, enterprise RAG pipelines, AI agents, and
+large-scale data pipelines. Interested in the intersection of LLMs,
+programming languages, formal software engineering methods, code analysis,
+and automated code transformation.
+
+% ============================================================
+% RESEARCH ALIGNMENT
+% ============================================================
+
+\section{Research Alignment -- FoSSE Focus Areas}
+
 \begin{itemize}
-\item \textbf{Generative AI \& LLMs}: LangChain, OpenAI API, RAG Pipelines, Prompt Engineering, AI Agents, Embeddings, Hugging Face, Vector Databases (PGVector, Pinecone), Fine-tuning, MLOps.
-\item \textbf{Data Engineering}: Databricks (Certified), Apache Spark, Delta Lake, ETL/ELT Pipelines, Lakehouse Architecture, SQL, Batch \& Streaming.
-\item \textbf{Machine Learning \& CV}: TensorFlow, PyTorch, OpenCV, YuNet, Scikit-learn, LSTM, Deep Q-Learning, Reinforcement Learning, NLP.
-\item \textbf{Languages \& Backend}: Python, SQL, FastAPI, REST APIs, Node.js, Flask, JavaScript, Pandas, NumPy.
-\item \textbf{Tools \& Platforms}: Docker, Microsoft Azure, GitHub, CI/CD, Microservices, PostgreSQL, MLflow.
+
+\item
+\textbf{AI for Code Analysis \& Transformation:}
+Built AI agent systems performing automated document/code-like migration,
+classification, extraction, and structured transformation tasks using LLMs.
+Experienced in prompting LLMs for structured code-like output and analysis.
+
+\item
+\textbf{LLM-Powered Software Engineering Tools:}
+Designed and deployed enterprise-scale LLM applications using LangChain
+and OpenAI API that process 100,000+ structured documents with 95\%
+retrieval accuracy, demonstrating the ability to build reliable AI tools
+for large-scale repositories.
+
+\item
+\textbf{Static Analysis \& Data Pipeline Research:}
+Engineered end-to-end data pipelines for automated ingestion, parsing,
+chunking, embedding, indexing, and semantic analysis of large document
+collections. These skills are transferable to static analysis of large
+codebases.
+
+\item
+\textbf{Python \& ML for Research Experimentation:}
+Developed modular Python research code with MLflow experiment tracking,
+including parameter, metric, artifact, and model-version tracking for
+reproducible experimentation.
+
+\item
+\textbf{Formal Methods Foundation:}
+Academic background in algorithms, data structures, discrete mathematics,
+theory of computation, database systems, operating systems, and software
+engineering, providing foundations for programming-language and formal
+verification research.
+
 \end{itemize}
 
-\section{Experience}
-\cventry{Nov 2025-Apr 2026}{Generative AI / Data Engineering Intern}{InfoCepts -- Data \& AI}{Nagpur, India}{}{
-\begin{itemize}
-\item Designed and deployed enterprise-grade RAG pipelines using LangChain and OpenAI Embeddings over 100K+ documents, achieving 95\% retrieval accuracy.
-\item Optimized vector indexing and chunking strategies (PGVector) to reduce OpenAI API costs by 25\%.
-\item Built multi-step AI agents with REST API tool-calling to automate 15+ enterprise workflows, saving 260+ hours annually.
-\item Architected horizontally scalable FastAPI microservices in Docker on Microsoft Azure.
-\item Engineered ETL/ELT pipelines using Python, Apache Spark, and Delta Lake on Databricks.
-\item Shipped real-time face recognition attendance system (OpenCV, YuNet, TensorFlow), 98\% accuracy, sub-100ms latency.
-\end{itemize}}
+% ============================================================
+% TECHNICAL SKILLS
+% ============================================================
 
-\cventry{Jun 2024-Aug 2024}{Web Developer Intern}{LGPS Hybrid Energy Pvt. Ltd.}{Nagpur, India}{}{
-\begin{itemize}
-\item Built full-stack solar energy monitoring dashboard (Node.js, Express.js, React, Chart.js) with live REST API streaming.
-\item Reduced reporting latency by 40\% for the operations team.
-\end{itemize}}
+\section{Technical Skills}
 
-\cventry{Dec 2022-Jan 2023}{Placement Coordination Head}{Amazon (via SBJITMR)}{Nagpur, India}{}{
+\cvitem{Programming}
+{Python, SQL, JavaScript, Shell}
+
+\cvitem{AI \& LLM Systems}
+{LangChain, OpenAI API, RAG Pipelines, Agentic AI, Prompt Engineering,
+Embeddings, Vector Search}
+
+\cvitem{Machine Learning}
+{PyTorch, TensorFlow, Scikit-learn, LSTM, Deep Q-Learning,
+NLP, Computer Vision, MLflow}
+
+\cvitem{Software Engineering}
+{FastAPI, REST APIs, Docker, Microservices, GitHub, CI/CD,
+Agile, Code Reviews, OOP, Testing}
+
+\cvitem{Data Engineering \& Cloud}
+{Apache Spark, Databricks, Delta Lake, ETL/ELT,
+Microsoft Azure, Batch Processing, Streaming}
+
+\cvitem{Research Tools}
+{MLflow, PostgreSQL, PGVector, Pinecone, Jupyter, Git}
+
+\cvitem{Platforms}
+{Linux (Ubuntu), Windows, Microsoft Azure, GitHub, VS Code}
+
+% ============================================================
+% PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+
+\cventry
+{Nov 2025 -- Apr 2026}
+{Generative AI \& Data Engineering Intern}
+{InfoCepts -- Data \& AI}
+{Nagpur, India}
+{}
+{
 \begin{itemize}
-\item Managed 3-day Amazon campus recruitment drive, coordinating logistics for 500+ applicants per day.
-\end{itemize}}
+
+\item
+Built enterprise RAG pipelines using LangChain and OpenAI API that
+automatically ingest, parse, chunk, embed, and semantically search
+100,000+ enterprise documents.
+
+\item
+Designed multi-step Agentic AI systems with dynamic tool-calling to
+autonomously perform classification, extraction, and structured
+transformation tasks.
+
+\item
+Optimized retrieval and vector-search strategies using PGVector,
+reducing OpenAI API costs by 25\%.
+
+\item
+Packaged AI solutions into production-grade FastAPI microservices
+running in Docker containers on Microsoft Azure.
+
+\item
+Engineered end-to-end ETL/ELT pipelines using Python, Apache Spark,
+and Delta Lake on Databricks for large-scale structured data processing.
+
+\item
+Tracked ML experiments using MLflow, recording parameters, metrics,
+artifacts, and model versions to support reproducibility.
+
+\item
+Shipped a real-time face recognition pipeline using OpenCV, YuNet,
+and TensorFlow achieving 98\% accuracy and sub-100ms latency.
+
+\item
+Received a Certificate of Recognition at InfoCepts GALA 2026 for
+outstanding applied AI engineering work.
+
+\end{itemize}
+}
+
+\cventry
+{Jun 2024 -- Aug 2024}
+{Web Developer Intern}
+{LGPS Hybrid Energy Pvt. Ltd.}
+{Nagpur, India}
+{}
+{
+\begin{itemize}
+
+\item
+Built a full-stack energy monitoring dashboard using Node.js,
+React, and Chart.js with live REST API integration.
+
+\item
+Developed practical full-stack software engineering solutions
+for real-time energy monitoring and visualization.
+
+\end{itemize}
+}
+
+\cventry
+{2023 -- 2025}
+{Placement Coordinator}
+{S.B. Jain Institute of Technology, Management \& Research}
+{Nagpur, India}
+{}
+{
+\begin{itemize}
+
+\item
+Coordinated 15+ company recruitment drives involving organizations
+including HCL and Amazon.
+
+\item
+Managed recruitment logistics, communication, coordination, and
+student-company interactions.
+
+\end{itemize}
+}
+
+% ============================================================
+% RESEARCH-RELEVANT PROJECTS
+% ============================================================
+
+\section{Research-Relevant Projects}
+
+\cventry
+{}
+{Enterprise RAG System over Large Document Repository}
+{LangChain | OpenAI API | PGVector | FastAPI | Python | Azure}
+{}
+{}
+{
+\begin{itemize}
+
+\item
+Production-oriented system performing automated semantic analysis
+over 100,000+ documents through chunking, embedding, vector indexing,
+retrieval, and LLM-powered response generation.
+
+\item
+Achieved 95\% retrieval accuracy and reduced API costs by 25\%
+through optimized retrieval strategies.
+
+\end{itemize}
+}
+
+\cventry
+{}
+{Agentic AI Code-Like Transformation Platform}
+{LangChain | Python | FastAPI | Docker | Azure}
+{}
+{}
+{
+\begin{itemize}
+
+\item
+Developed a multi-step AI agent capable of autonomous structured
+document classification, extraction, and transformation using LLMs.
+
+\item
+Automated complex structured analysis workflows, saving 260+ hours
+annually.
+
+\end{itemize}
+}
+
+\cventry
+{}
+{LSTM + Reinforcement Learning Research Experiment}
+{PyTorch | TensorFlow | Deep Q-Learning | MLflow}
+{}
+{}
+{
+\begin{itemize}
+
+\item
+Developed an LSTM forecasting model achieving RMSE of 0.0257 kWh
+and integrated a Deep Q-Learning agent.
+
+\item
+Tracked experiments using MLflow, covering experiment parameters,
+metrics, artifacts, and model versions for reproducibility.
+
+\end{itemize}
+}
+
+% ============================================================
+% EDUCATION
+% ============================================================
 
 \section{Education}
-\cventry{2022-2026}{B.Tech in Computer Science}{S.B. Jain Institute of Technology, Management \& Research (SBJITMR)}{Nagpur, India}{}{CGPA: 7.54/10.0 \textbar\ Grade: A+}
+
+\cventry
+{Jul 2022 -- Jul 2026}
+{Bachelor of Engineering (B.E.) -- Computer Science Engineering}
+{S.B. Jain Institute of Technology, Management and Research (SBJITMR)}
+{Nagpur, India}
+{}
+{
+\textbf{RTM Nagpur University}
+
+\textbf{CGPA: 7.54/10.0 \quad | \quad Grade: A+}
+
+\textbf{Relevant Coursework:}
+Data Structures \& Algorithms, Theory of Computation,
+Discrete Mathematics, Database Systems, Machine Learning,
+Artificial Intelligence, Operating Systems, Computer Networks,
+Software Engineering
+}
+
+% ============================================================
+% CERTIFICATIONS
+% ============================================================
 
 \section{Certifications}
+
 \begin{itemize}
-\item Databricks Certified Generative AI Engineer Associate -- Valid Apr 2026 -- Apr 2028
-\item Databricks Certified Data Engineer Associate -- Valid Apr 2026 -- Apr 2028
-\item Databricks Generative AI Fundamentals -- Apr 2026
+
+\item
+\textbf{Databricks Certified Generative AI Engineer Associate}
+-- Credential: 181091666 -- Valid Apr 2026 -- Apr 2028
+
+\item
+\textbf{Databricks Certified Data Engineer Associate}
+-- Credential: 180763435 -- Valid Apr 2026 -- Apr 2028
+
+\item
+\textbf{Databricks Generative AI Fundamentals}
+-- April 2026
+
+\item
+\textbf{Cyber Security \& Ethical Hacking}
+-- National Skill Development Corporation -- July 2025
+
+\item
+\textbf{IQS Python Programming}
+-- Grade: A+
+
 \end{itemize}
 
-\section{Languages}
-English (Professional), Hindi (Native), Marathi (Native)
+% ============================================================
+% ACHIEVEMENTS & ACADEMIC ACTIVITIES
+% ============================================================
 
-\section{Awards}
-Department Award Trophy -- IEEE Computer Society Chapter (2025)
+\section{Achievements \& Academic Activities}
+
+\begin{itemize}
+
+\item
+\textbf{Certificate of Recognition -- InfoCepts GALA 2026:}
+Recognised for outstanding applied AI engineering during production
+internship at a global Data \& AI company.
+
+\item
+\textbf{Department Award Trophy -- IEEE Computer Society Chapter (2025):}
+Led 10+ technical AI \& Robotics events, demonstrating technical
+leadership, initiative, and research communication.
+
+\item
+\textbf{Campus Ambassador -- IIT Guwahati (May -- Sep 2025):}
+Engaged with researchers and students at a premier national research
+institution and participated in academic and research community
+networking.
+
+\item
+\textbf{Placement Coordinator -- SBJITMR (2023 -- 2025):}
+Coordinated 15+ company recruitment drives involving HCL, Amazon,
+and other organizations.
+
+\end{itemize}
+
+% ============================================================
+% LANGUAGES
+% ============================================================
+
+\section{Languages}
+
+\cvitem{}{English (Professional) \quad | \quad Hindi (Native)
+\quad | \quad Marathi (Native)}
+
+% ============================================================
+% END
+% ============================================================
 
 \end{document}

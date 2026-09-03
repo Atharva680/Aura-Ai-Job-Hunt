@@ -66,11 +66,11 @@ For each **enabled** portal skill:
 
 1. Read its `SKILL.md` to find the correct `bun run …` invocation and supported flags.
 2. Translate the query terms from `search-queries.md` into that portal's flag format (e.g. `--key`, `--search-string`, `--query`, filter codes — whatever the portal's SKILL.md specifies).
-3. Scope to the last 14 days using the portal's supported recency **filter** flag (`--jobage`, `--since <YYYY-MM-DD>`, etc. — as documented per portal). A portal with **no recency flag** (jobdanmark offers none) still gets scoped: every portal's search output carries a `date` field, so filter client-side — drop results whose `date` is older than 14 days after the call returns, and never invent a flag the portal's SKILL.md does not document (the CLIs reject unknown flags). `--order PublicationDate` is a sort, and a sort is not a filter — pairing it with a `--limit` is a defensible approximation on a portal that offers nothing better (jobnet), but apply the client-side date filter on top all the same.
+3. Scope to the last 7 days using the portal's supported recency **filter** flag (`--jobage 7`, `--since <YYYY-MM-DD>`, etc. — as documented per portal). Prefer a 24-hour filter where the portal supports it. A portal with no recency flag must filter client-side: every portal's search output carries a `date` field, so run `python tools/filter_fresh_postings.py --max-days 7` on the JSON output and retain only records with a parseable posting timestamp in the window. This validator rejects unknown dates and stale relative-age labels such as `last month` and `30+ days ago`; never infer freshness from `first_seen`, a deadline, or sort order. `--order PublicationDate` is a sort, and a sort is not a filter — pairing it with a `--limit` is only an approximation and still requires the validator.
 4. Cap results to ~20 per call using the portal's limit flag.
 5. Use `--format json` for machine-readable output.
 
-Run all portal CLI calls in parallel where possible using the Agent tool. Collect all `results` arrays into a single pool for Step 2, keeping each result tagged with its source portal skill (for Step 2 `detail` lookups).
+Run all portal CLI calls in parallel where possible using the Agent tool. Collect only the validator-approved `results` arrays into a single pool for Step 2, keeping each result tagged with its source portal skill (for Step 2 `detail` lookups).
 
 If a CLI tool exits with a non-zero code, log the error message and continue — do not abort the whole search.
 

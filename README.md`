@@ -1,0 +1,101 @@
+<!--horizontal divider(gradiant)-->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!--h1 without bottom border-->
+<div id="user-content-toc">
+  <ul align="center">
+    <summary><h1 style="display: inline-block">🚀 AuraAI Job Hunt Framework</h1></summary>
+  </ul>
+</div>
+
+<!--- snake -->
+<div align="center">
+  <img src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/grid-snake.svg" alt="snake">
+</div>
+
+<!--h2 without bottom border-->
+<div id="user-content-toc">
+  <ul align="center">
+    <summary><h2 style="display: inline-block">Precision AI-Powered Career Acceleration</h2></summary>
+  </ul>
+</div>
+
+<!--Intro start-->
+<ul style="height: auto !important;">
+<li>
+<p>🔭 This project is a high-performance automation engine designed to help early-career AI/ML and Data Engineers find, filter, and apply for the most relevant roles using Generative AI. It eliminates the "application noise" by enforcing a strict seniority hard-filter before any resume is tailored.</p>
+</li>
+<li>
+<p>🛠️ Built with <strong>Python, Bun, LaTeX, and Claude AI</strong></p>
+</li>
+</ul>
+
+<!-- Architecture Section -->
+<div align="center">
+  <h2>🏗️ System Architecture</h2>
+</div>
+
+### 🧩 Component Breakdown
+
+| Component | File Path | Purpose |
+| :--- | :--- | :--- |
+| **Master Pipeline** | `tools/master_pipeline.py` | The "Brain". Orchestrates scraping, filtering, scoring, and updating the dashboard. |
+| **Job Scraper** | `tools/job_pipeline.py` | Fetches raw job data from LinkedIn and Freehire. |
+| **Seniority Filter** | `.claude/skills/.../seniority-filtering.md` | The "Wall". Mandatory rules to reject Mid/Senior roles. |
+| **Evaluation Engine**| `.claude/skills/.../04-job-evaluation.md` | Scores jobs (0-100) based on technical and role alignment. |
+| **Resume Tailor** | `.claude/skills/resume-tailor/` | Generates unique, ATS-optimized LaTeX/JSON resumes per company. |
+| **Control Center** | `job_dashboard.html` | Visual interface to track and filter found opportunities. |
+| **Tailor Queue** | `tailor_queue.json` | A curated list of the Top 5 high-priority jobs to apply for. |
+
+---
+
+### 🚀 Execution Workflow (Step-by-Step)
+
+Follow these steps to go from "Searching" to "Applying":
+
+#### Step 1: Run the Master Pipeline
+Execute the single command to populate your dashboard and queue.
+**PowerShell:**
+```powershell
+$env:PYTHONPATH = "."; $env:PYTHONIOENCODING = "utf-8"; python tools/master_pipeline.py
+```
+**Bash:**
+```bash
+export PYTHONPATH=. && export PYTHONIOENCODING=utf-8 && python tools/master_pipeline.py
+```
+
+#### Step 2: Review the Dashboard
+Open `job_dashboard.html` in your browser.
+- View the **Relevant Openings** (already filtered for Entry-Level).
+- Check the **Relevance Score** for each job.
+
+#### Step 3: Tailor Your Resume
+Check the `tailor_queue.json` for the top 5 matches, then ask Claude:
+> *"Tailor a resume for job #1 in the queue"*
+Claude will generate a unique resume in `tailored_resumes/` as `resume_<company>_<role>.json` and `.tex`.
+
+#### Step 4: Apply
+Use the generated LaTeX file to create your PDF and apply via the URL provided in the dashboard.
+
+---
+
+<!-- Technologies Section -->
+<div align="center">
+  <h2>Technologies Used👨🏻‍💻</h2>
+</div>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,js,docker,azure,git,github,vscode,linux,md" />
+  </a>
+</p>
+
+<!-- Footer -->
+<div align="center">
+<p><a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=ai-job-search-master&amp;icon=3&amp;color=6" alt="visit count"></a></p>
+</div>
+
+<!--horizontal divider(gradiant)-->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<hr>
+<p>Engineered for precision career growth.</p>

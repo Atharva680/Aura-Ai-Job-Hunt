@@ -1,0 +1,56 @@
+{
+  "company": "TechCorp",
+  "role": "Junior AI Engineer",
+  "tailored_content": {
+    "professional_summary": "Final-year B.E. Computer Science student and Databricks Certified Generative AI Engineer with production experience building enterprise-grade RAG pipelines and Agentic AI systems. Proven track record of delivering 95% retrieval accuracy over 100K+ documents and reducing API costs by 25% using optimized vector search strategies. Specialized in LangChain, Python, and Azure-deployed AI microservices.",
+    "technical_skills": {
+      "Programming": "Python (Expert), SQL, Shell",
+      "AI_LLM_Systems": "LangChain, RAG Pipelines, Agentic AI, OpenAI API, Prompt Engineering, Vector Search",
+      "Cloud_Data": "Databricks (Certified), Microsoft Azure, Apache Spark, Delta Lake, ETL/ELT",
+      "Software_Engineering": "FastAPI, Docker, REST APIs, Microservices, Git, CI/CD"
+    },
+    "experience": [
+      {
+        "company": "InfoCepts",
+        "role": "Generative AI & Data Engineering Intern",
+        "duration": "Nov 2025 -- Apr 2026",
+        "bullets": [
+          "Engineered production-grade enterprise RAG pipelines using LangChain and OpenAI API, automating the ingestion and semantic search of 100,000+ documents with 95% retrieval accuracy.",
+          "Developed multi-step Agentic AI systems with dynamic tool-calling for autonomous classification and structured transformation, saving 260+ hours of manual work annually.",
+          "Optimized vector-search strategies via PGVector, reducing OpenAI API operational costs by 25% while maintaining high precision.",
+          "Deployed AI solutions as production-ready FastAPI microservices within Docker containers on Microsoft Azure.",
+          "Implemented large-scale data pipelines using Apache Spark and Delta Lake on Databricks for structured data processing."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Enterprise RAG System",
+        "tech": "LangChain, OpenAI, PGVector, FastAPI, Azure",
+        "bullets": [
+          "Built a high-scale semantic analysis system processing 100K+ documents, achieving 95% retrieval accuracy.",
+          "Reduced API overhead by 25% through optimized chunking and retrieval strategies."
+        ]
+      },
+      {
+        "title": "Agentic AI Transformation Platform",
+        "tech": "LangChain, Python, FastAPI, Docker, Azure",
+        "bullets": [
+          "Designed an autonomous AI agent for structured document extraction and transformation, reducing manual effort by 260+ hours/year."
+        ]
+      }
+    ],
+    "certifications": [
+      "Databricks Certified Generative AI Engineer Associate",
+      "Databricks Certified Data Engineer Associate",
+      "Databricks Generative AI Fundamentals"
+    ]
+  },
+  "ats_score": {
+    "Keyword_Alignment": 100,
+    "Technical_Relevance": 100,
+    "Quantification": 95,
+    "Role_Alignment": 100,
+    "Overall_Score": 98
+  }
+}
