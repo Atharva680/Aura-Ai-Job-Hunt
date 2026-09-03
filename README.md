@@ -1405,4 +1405,3 @@ And the README reference should remain:
 </a>
 ```
 
-That way, the README works correctly on GitHub without exposing your local Windows path.
